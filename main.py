@@ -79,7 +79,7 @@ def predict():
     userinp = userinp['data']
     comment_prediction = pred(userinp)
 
-    return jsonify({"response" : "comment is "+comment_prediction})
+    return jsonify({"response": "comment is " + comment_prediction})
 
 
 @app.route("/")
