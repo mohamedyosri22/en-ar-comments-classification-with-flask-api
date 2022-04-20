@@ -89,4 +89,4 @@ def ind():
 
 if __name__ == '__main__':
     WSGIRequestHandler.protocol_version = "HTTP/1.1"
-    app.run(port=3000, debug=True)
+    app.run(port=3001, debug=True)
